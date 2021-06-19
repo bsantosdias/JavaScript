@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="temperatura.js"></script>
+<link rel="stylesheet" href="temperatura.css" />
+
+<head>
+    <title>Convertor de temperatura</title>
+</head>
+
+<body>
+
+    <h2>Convertor de temperatura.</h2>
+    <p>Digite uma temperatura em Celcius para converter para Farenheit.</p>
+
+    <p>
+        <label>Temperatura em Celsius:</label>
+        <input id="Celsius" type="number" oninput="converterTemperatura(this.value)"
+            onchange="converterTemperatura(this.value)">
+    </p>
+    <p>Fahrenheit: <span id="Fahrenheit"></span></p>
+
+</body>
+
+</html>
